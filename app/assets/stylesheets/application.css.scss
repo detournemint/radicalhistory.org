@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ // Example using 'Cerulean' bootswatch
+
+//Import bootstrap-sprockets
+@import "bootstrap-sprockets";
+
+// Import cerulean variables
+@import "bootswatch/sandstone/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+p{ padding: 10px}
+
+// And finally bootswatch style itself
+@import "bootswatch/sandstone/bootswatch";
